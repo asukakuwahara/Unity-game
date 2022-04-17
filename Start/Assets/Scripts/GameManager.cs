@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
             GameOver();
             m_timer = 0;
         }
-
+        UpdateTimer();
     }
 
     void GameOver()
